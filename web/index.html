@@ -1,12 +1,27 @@
 <!DOCTYPE HTML>
 <html lang="de-DE">
-  <head>
-    <meta charset="iso-8859-1">
+<head>
+    <meta charset="ISO-8859-1" />
     <title>Jewel Warrior</title>
-  </head>
-  <body>
+
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/fontfaces.css" />
+    <script src="scripts/modernizr.js"></script>
+    <script src="scripts/loader.js"></script>
+</head>
+<body>
     <div id="game">
-      <!-- Hierhin kommt das Spiel>
+        <div class="screen" id="splash-screen">
+            <h1 class="logo">Jewel <br/>Warrior</h1>
+            <span class="continue">
+            	<br/>Hier klicken,
+            	<br/>um fortzusetzen ...
+            </span>
         </div>
-  </body>
+
+        <div class="screen" id="main-menu"></div>
+        <div class="screen" id="game-screen"></div>
+        <div class="screen" id="high-scores"></div>
+    </div>
+</body>
 </html>
